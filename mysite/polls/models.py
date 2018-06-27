@@ -1,5 +1,4 @@
 from django.db import models
-import psycopg2
 
 
 class Question(models.Model):

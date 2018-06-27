@@ -10,4 +10,5 @@ urlpatterns = [
     path('<int:question_id>/vote/', views.vote, name='vote'),
     path('selects/', views.select, name='selects'),
     path('get_connection/', views.get_connection, name='get_connection'),
+    path('get_connection2/', views.get_connection2, name='get_connection2'),
 ]
